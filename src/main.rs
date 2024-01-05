@@ -1,5 +1,5 @@
-use std::fmt::format;
 use bracket_lib::prelude::*;
+use std::fmt::format;
 
 enum GameMode {
     Menu,
