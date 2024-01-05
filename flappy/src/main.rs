@@ -6,6 +6,12 @@ enum GameMode {
     End,
 }
 
+struct Player {
+    x: i32,
+    y: i32,
+    velocity: f32,
+}
+
 struct State {
     mode: GameMode,
 }
