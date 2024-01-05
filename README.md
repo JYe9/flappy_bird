@@ -22,7 +22,7 @@ This is a simplified implementation of the classic game Flappy Bird using Rust p
 
    ```
    tomlCopy code[dependencies]
-   bracket-lib = "0.8"
+   bracket-lib = "~0.8.7"
    ```
 
 3. Run the game using `cargo run`.
@@ -61,6 +61,21 @@ The game code consists of several components:
    - Listens for specific keyboard inputs (`P` to play, `Q` to quit) in menu and end screens.
 4. **Rendering**:
    - Renders the game elements like the player, obstacles, score, and menu texts.
+
+## TODO List
+
+### Graphics Enhancement
+
+- [ ]  **Add New Bird Images**: Replace the current bird icon with new images for different bird skins.
+- [ ] **Change Obstacle to an Image**: Replace the brick-like obstacles with images representing different obstacles.
+- [ ] **Add Background**: Implement a background image or color scheme to enhance the visual appeal of the game.
+
+### Game Features
+
+- [ ] **Implement Multiple Levels**: Allow players to choose different levels with varying difficulty.
+- [ ] **Add Coins as Rewards**: Introduce coins as rewards collected during gameplay.
+- [ ] **Implement Bird Skins**: Enable players to use earned coins to purchase different skins for the bird.
+- [ ] **Add Music**: Add music to the game during gameplay.
 
 ## Conclusion
 
